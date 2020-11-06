@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           key: ${{ secrets.SERVER_KEY }}
-          script: cd ${{ secrets.PROJECT_PATH }} && git pull
+          script: cd ${{ secrets.SERVER_TARGET }} && git pull
