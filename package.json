@@ -1,0 +1,19 @@
+{
+  "name": "rmit_a03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sync_identification_example_https.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lachyc/rmit_a03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lachyc/rmit_a03/issues"
+  },
+  "homepage": "https://github.com/lachyc/rmit_a03#readme"
+}
