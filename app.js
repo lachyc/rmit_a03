@@ -1,7 +1,9 @@
 const https = require('https')
+const http = require('http');
 var fs = require('fs');
 var config = require('./config');
 
+/*
 const files = ['photo1.jpg'];
 
 const base64files = files.map(file => fs.readFileSync(file, 'base64'));
@@ -30,6 +32,7 @@ const options = {
     }
 }
 
+
 const req = https.request(options, res => {
     res.on('data', d => {
         process.stdout.write(d)
@@ -43,3 +46,10 @@ req.on('error', error => {
 req.write(data)
 
 req.end()
+*/
+
+//create a server object:
+http.createServer(function (req, res) {
+    res.write('Hello World!'); //write a response to the client
+    res.end(); //end the response
+  }).listen(80); //the server object listens on port 8080
